@@ -10,17 +10,17 @@ class AlphameticsTest extends FunSuite with Matchers {
   }
 
   test("solution must have unique value for each letter") {
-    pending
+
     Alphametics.solve("A == B") should be (None)
   }
 
   test("leading zero solution is invalid") {
-    pending
+
     Alphametics.solve("ACA + DD == BD") should be (None)
   }
 
   test("puzzle with four letters") {
-    pending
+
     Alphametics.solve("AS + A == MOM") should be (Some(Map('A' -> 9,
       'M' -> 1,
       'O' -> 0,
@@ -28,7 +28,7 @@ class AlphameticsTest extends FunSuite with Matchers {
   }
 
   test("puzzle with six letters") {
-    pending
+
     Alphametics.solve("NO + NO + TOO == LATE") should be (Some(Map('A' -> 0,
       'E' -> 2,
       'L' -> 1,
@@ -38,7 +38,7 @@ class AlphameticsTest extends FunSuite with Matchers {
   }
 
   test("puzzle with seven letters") {
-    pending
+
     Alphametics.solve("HE + SEES + THE == LIGHT") should be (Some(Map('E' -> 4,
       'G' -> 2,
       'H' -> 5,
@@ -49,7 +49,7 @@ class AlphameticsTest extends FunSuite with Matchers {
   }
 
   test("puzzle with eight letters") {
-    pending
+
     Alphametics.solve("SEND + MORE == MONEY") should be (Some(Map('D' -> 7,
       'E' -> 5,
       'M' -> 1,
@@ -61,7 +61,7 @@ class AlphameticsTest extends FunSuite with Matchers {
   }
 
   test("puzzle with ten letters") {
-    pending
+
     Alphametics.solve("AND + A + STRONG + OFFENSE + AS + A + GOOD == DEFENSE") should be (Some(Map('A' -> 5,
       'D' -> 3,
       'E' -> 4,

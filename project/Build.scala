@@ -8,7 +8,7 @@ import scala.util.parsing.json.{JSONArray, JSONObject, JSON}
 
 object XScalaBuild extends Build {
 
-  scalaVersion := "2.12.1"
+  scalaVersion := "2.12.4"
   name := "xscala"
 
   val commonSettings = Seq(
@@ -22,7 +22,7 @@ object XScalaBuild extends Build {
 
   override def projects: Seq[Project] = {
     fetchProblemNames("config.json").map {
-      problemName => Project(problemName, new File(problemName)).settings(commonSettings:_*)
+      problemName => Project(problemName, new File(s"exercises/$problemName")).settings(commonSettings:_*)
     }
   }
 

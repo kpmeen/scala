@@ -8,7 +8,7 @@ class SieveTest extends FunSuite with Matchers {
   }
 
   test("find first prime") {
-    pending
+
     Sieve.primes(2) should be(List(2))
   }
 
