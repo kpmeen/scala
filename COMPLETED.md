@@ -81,7 +81,7 @@
 * [x] strain
 * [x] sublist
 * [x] sum-of-multiples
-* [ ] triangle
+* [x] triangle
 * [ ] trinary
 * [ ] variable-length-quantity
 * [x] word-count
