@@ -64,7 +64,7 @@
 * [x] raindrops
 * [x] rna-transcription
 * [x] robot-name
-* [ ] robot-simulator
+* [x] robot-simulator
 * [ ] roman-numerals
 * [ ] run-length-encoding
 * [ ] saddle-points
