@@ -17,7 +17,7 @@
 * [ ] bowling
 * [ ] bracket-push
 * [ ] change
-* [ ] clock
+* [x] clock
 * [x] collatz-conjecture
 * [ ] connect
 * [ ] crypto-square
