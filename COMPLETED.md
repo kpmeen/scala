@@ -57,7 +57,7 @@
 * [x] phone-number
 * [ ] pig-latin
 * [ ] prime-factors
-* [ ] protein-translation
+* [x] protein-translation
 * [ ] pythagorean-triplet
 * [ ] queen-attack
 * [ ] rail-fence-cipher
