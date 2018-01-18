@@ -70,7 +70,7 @@
 * [ ] saddle-points
 * [ ] say
 * [x] scrabble-score
-* [ ] secret-handshake
+* [x] secret-handshake
 * [ ] series
 * [ ] sgf-parsing
 * [x] sieve
