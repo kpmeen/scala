@@ -35,7 +35,7 @@
 * [x] hello-world
 * [ ] hexadecimal
 * [ ] house
-* [ ] isogram
+* [x] isogram
 * [ ] kindergarten-garden
 * [ ] largest-series-product
 * [x] leap
